@@ -10,6 +10,11 @@ type Config struct {
 	Cookies []string `json:"cookies,omitempty"`
 }
 
+// CreateConfig creates the default plugin configuration.
+func CreateConfig() *Config {
+	return &Config{}
+}
+
 type FilterPlugin struct {
 	next    http.Handler
 	cookies []string
