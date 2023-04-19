@@ -1,4 +1,4 @@
-  GNU nano 4.8                                                                                                                                              README.md                                                                                                                                                        # keepcookie
+### keepcookie
 Keepcookie is a middleware plugin for [Traefik](https://github.com/traefik/traefik) which Keeps the cookies that are indicated by deleting all others.
 
 ### Configuration
