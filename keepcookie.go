@@ -12,7 +12,9 @@ type Config struct {
 
 // CreateConfig creates the default plugin configuration.
 func CreateConfig() *Config {
-	return &Config{}
+	return &Config{
+		cookies: []string{},
+	}
 }
 
 type FilterPlugin struct {
