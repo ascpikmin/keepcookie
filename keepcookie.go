@@ -22,7 +22,7 @@ type FilterPlugin struct {
 	cookies []string
 }
 
-func New(ctx context.Context, next http.Handler, config *Config, name string) (http.Handler, error) {
+func New(ctx context.Context, next http.Handler, config *Config) (http.Handler, error) {
 	return &FilterPlugin{
 		next:    next,
 		cookies: config.Cookies,
