@@ -1,0 +1,8 @@
+displayName: Keep cookie
+type: middleware
+import: github.com/ascpikmin/keepcookie
+summary: |
+  Keeps the cookies that are indicated by deleting all others.
+testData:
+  cookies:
+    - cookieName
